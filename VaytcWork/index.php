@@ -7,7 +7,6 @@ spl_autoload_register(function ($class) {
     ) . '.php';
 });
 
-use College\VaytcWork;
 
 $student = new Student(
 $gruppa = new Gruppa("ISP", new DateTime('2022-01-01'), "Tanya"), 
