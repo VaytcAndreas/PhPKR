@@ -2,7 +2,7 @@
 namespace College\VaytcWork;
 
 use \DateTime;
-
+use College\VaytcWork\Gruppa;
 
 
 class Student {
