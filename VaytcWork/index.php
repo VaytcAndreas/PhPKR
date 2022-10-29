@@ -1,9 +1,13 @@
 <?php
 
-require_once "C:\openserver\domains\PhPKR\college\VaytcWork\Student.php";
+spl_autoload_register(function ($class) {
+    require __DIR__ . DIRECTORY_SEPARATOR . implode(
+        DIRECTORY_SEPARATOR,
+        explode('\\', str_replace('VaytcWork', '', $class))
+    ) . '.php';
+});
 
-use College\VaytcWork\Gruppa;
-use College\VaytcWork\Student;
+use College\VaytcWork;
 
 $student = new Student(
 $gruppa = new Gruppa("ISP", new DateTime('2022-01-01'), "Tanya"), 
