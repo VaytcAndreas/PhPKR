@@ -2,7 +2,7 @@
 namespace College\VaytcWork;
 require_once "C:\openserver\domains\PhPKR\college\VaytcWork\Gruppa.php";
 use \DateTime;
-use College\VaytcWork\Gruppa;
+
 
 
 class Student {
